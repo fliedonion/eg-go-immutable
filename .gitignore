@@ -1,0 +1,30 @@
+# allow minimum to ignore binary create by `go build`
+/*
+!/*/
+
+!/go.mod
+!/go.sum
+
+!/LICENSE
+!/.gitignore
+!/.gitattributes
+!/README.md
+
+# build script
+!/Makefile
+!/CMakeLists.txt
+!/*.bat
+!/*.sh
+
+## src, test src, dest(folder only)
+!/dest/
+/dest/*
+!/dest/.gitkeep
+
+
+# project oriented
+
+
+# windows / mac 
+.DS_Store
+[Tt]humbs.db
